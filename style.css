@@ -1,0 +1,45 @@
+body {
+    background-color: #000033;
+
+    color: white;
+
+    font-family: "Courier New", monospace;
+
+    text-align: center;
+}
+
+.page {
+    width: 750px;
+
+    margin: 40px auto;
+
+    padding: 25px;
+
+    background-color: black;
+
+    border: 4px ridge gray;
+}
+
+h1 {
+    color: cyan;
+
+    font-size: 42px;
+
+    text-shadow: 2px 2px magenta;
+}
+
+h2 {
+    color: yellow;
+}
+
+.subtitle {
+    color: lightgray;
+
+    font-style: italic;
+}
+
+.footer {
+    color: gray;
+
+    font-size: 12px;
+}
