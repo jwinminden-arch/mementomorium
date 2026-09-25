@@ -52,5 +52,13 @@ h2 {
 }
 
 .video-container iframe {
+    width: 100%;
+    max-width: 560px;
+    aspect-ratio: 16 / 9;
+    height: auto;
+}
+
+img {
     max-width: 100%;
+    height: auto;
 }
