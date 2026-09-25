@@ -82,18 +82,14 @@ a {
 }
 
 .left-ad {
-    width: 180px;
-
-    margin-top: 40px;
-
-    flex-shrink: 0;
+    position: fixed;
+    left: 375px;
+    top: 100px;
 }
 
 .left-ad img {
-    width: 100%;
+    width: 160px;
     height: auto;
-
-    display: block;
 }
 
 /* =========================
