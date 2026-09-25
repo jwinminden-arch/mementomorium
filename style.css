@@ -1,31 +1,32 @@
 body {
     background-color: #000033;
-
     color: white;
-
     font-family: "Courier New", monospace;
-
     text-align: center;
+
+    margin: 0;
+    padding: 0;
 }
 
 .page {
     width: 90%;
     max-width: 750px;
+
     margin: 40px auto;
     padding: 25px;
+
     box-sizing: border-box;
 
     background-color: black;
-
     border: 4px ridge gray;
 }
 
 h1 {
     color: cyan;
-
     font-size: 42px;
-
     text-shadow: 2px 2px magenta;
+
+    overflow-wrap: break-word;
 }
 
 h2 {
@@ -34,31 +35,76 @@ h2 {
 
 .subtitle {
     color: lightgray;
-
     font-style: italic;
 }
 
 .footer {
     color: gray;
-
     font-size: 12px;
 }
 
 .about-image {
     width: 500px;
+    max-width: 100%;
     height: auto;
 
     border: 5px ridge #00ffff;
+    box-sizing: border-box;
 }
 
 .video-container iframe {
     width: 100%;
     max-width: 560px;
+
     aspect-ratio: 16 / 9;
     height: auto;
+
+    border: 0;
 }
 
 img {
     max-width: 100%;
     height: auto;
+}
+
+a {
+    overflow-wrap: anywhere;
+}
+
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media (max-width: 600px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    .page {
+        width: 96%;
+
+        margin: 10px auto;
+        padding: 15px;
+
+        border-width: 3px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .about-image {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .footer {
+        font-size: 11px;
+    }
 }
