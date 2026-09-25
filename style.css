@@ -71,6 +71,30 @@ a {
     overflow-wrap: anywhere;
 }
 
+.site-layout {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 20px;
+
+    width: 100%;
+}
+
+.left-ad {
+    width: 180px;
+
+    margin-top: 40px;
+
+    flex-shrink: 0;
+}
+
+.left-ad img {
+    width: 100%;
+    height: auto;
+
+    display: block;
+}
 
 /* =========================
    MOBILE
@@ -107,4 +131,16 @@ a {
     .footer {
         font-size: 11px;
     }
+
+    @media (max-width: 600px) {
+
+    .site-layout {
+        display: block;
+    }
+
+    .left-ad {
+        display: none;
+    }
+
+}
 }
